@@ -43,6 +43,7 @@ public class Parseo {
 				lista.add(t);
 			}
 			String html=CrearHtml.pintar(lista);
+			
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
