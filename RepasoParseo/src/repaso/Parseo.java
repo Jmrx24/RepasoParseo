@@ -13,6 +13,7 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.input.SAXBuilder;
 
+
 public class Parseo {
 
 	static URL url;
@@ -43,7 +44,7 @@ public class Parseo {
 				lista.add(t);
 			}
 			String html=CrearHtml.pintar(lista);
-			
+			Conexion.insertarDatos(lista);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}

@@ -30,7 +30,7 @@ public class Conexion {
 	        return conex;
 	    }
 
-	public static void insertarDatos() 
+	public static void insertarDatos(ArrayList<Tráfico> lista) 
 	{
 		
 	}
